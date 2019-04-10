@@ -13,9 +13,11 @@
 
 // Letter constructor should be able to either display an underlying  character or a blank placeholder 
 // (such as an underscore), depending on whether or not the user has guessed the letter. 
-function Letter(first, last, age, eye) {
+var Letter = function(first, last, age, eye) {
     this.firstName = first;
     this.lastName = last;
     this.age = age;
     this.eyeColor = eye;
   }
+
+  module.exports = Letter;

@@ -8,9 +8,11 @@ var word = require("./letter.js");
 
 // Word constructor is used to create an object representing the current word the user is attempting to 
 // guess. 
-function Word() {
+var Word = function() {
     this.firstName = first;
     this.lastName = last;
     this.age = age;
     this.eyeColor = eye;
   };
+
+  module.exports = Word;
