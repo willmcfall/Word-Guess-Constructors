@@ -9,8 +9,7 @@
 // A function that takes a character as an argument and checks it against the underlying character, 
 // updating the stored boolean value to true if it was guessed correctly
 
-var fs = require("fs");
-var inquirer = require("inquirer");
+
 
 // Letter constructor should be able to either display an underlying  character or a blank placeholder 
 // (such as an underscore), depending on whether or not the user has guessed the letter. 
